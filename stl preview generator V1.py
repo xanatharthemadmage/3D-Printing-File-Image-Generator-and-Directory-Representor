@@ -17,7 +17,7 @@ from PIL import Image
 #Place Starting path inside quotes 
 #Due to the way python handles strings you must double back slashes
 #Example StartPath = "C:\\3dfiles\\models"
-StartPath = "D:\\Documents\\3d prints\\PreSupported Models\\Amazons"
+StartPath = "D:\\Documents\\3d prints\\08 - July - Sons of Kashan Vra"
 
 
 ##############
@@ -128,7 +128,11 @@ def Render(startDir, inputPath, inputFile):
     bpy.ops.object.select_all(action='DESELECT') # Deselect all objects
     bpy.context.view_layer.objects.active = ob   # Make the model the active object
     ob.select_set(True)                          # Select the cube
+    
     bpy.ops.object.delete()
+    #remove the orphaned meshes from above delete
+    #I'm sure there is a better way to do this 
+    bpy.ops.outliner.orphans_purge()
 
 
 
