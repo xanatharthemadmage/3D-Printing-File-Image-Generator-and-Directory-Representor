@@ -1,6 +1,7 @@
 Uses Blender to create a .png for every file .stl or .obj file in a directory. Then places that .png in the same folder as the file. Finally combines all the images made in the session into one picture and places it in the root directory
 
-Requires Blender 2.8.X Requires Pillow
+Requires Blender 2.8.X 
+Requires Python Pillow
 
 Setup 
 
