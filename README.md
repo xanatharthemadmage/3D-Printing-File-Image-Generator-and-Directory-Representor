@@ -46,6 +46,7 @@ python -m pip install Pillow
 
 
 ####### Script and Blender Setup #########
+
 To run the script: 
 
 First open the provided scene. 
@@ -53,6 +54,7 @@ Then open the provided script in the scripting editor of Blender
 Save the scene to commit the changes.
 
 ####### Running the Script ################
+
 Place the top directory you want to scan in the sript. 
 StartPath = "C:\YOUR PATH\GOES HERE" 
 
