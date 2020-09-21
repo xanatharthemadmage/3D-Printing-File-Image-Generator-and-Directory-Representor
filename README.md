@@ -10,6 +10,7 @@ Requires Blender 2.8.X
 Requires Python Pillow
 
 ##########Setup############ 
+
 Install Blender 2.8.x
 Install Pillow within Blender's python interpreter or your system's python interpreter. 
 
